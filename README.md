@@ -65,10 +65,11 @@ You can configure the tool or specify target URLs by editing the source files or
 
 <img width="1476" height="436" alt="Image" src="https://github.com/user-attachments/assets/20aa3427-88ea-4c89-bc0b-bdce7258ce60" />
 
-## License
-
-This project is licensed under the ISC License.
 
 ## Disclaimer
 
 This tool is intended **strictly for educational and research purposes**. Do not use it to infringe on copyrights or violate website terms of service. Always respect intellectual property rights when cloning web content.
+
+## License
+
+This project is licensed under the MIT License.
