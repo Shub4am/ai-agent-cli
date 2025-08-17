@@ -61,6 +61,10 @@ You can configure the tool or specify target URLs by editing the source files or
 - `cloned-websites/` — Output directory for cloned sites, organized by domain.
 - `package.json` — Project metadata and dependencies.
 
+## CLI Screenshot
+
+<img width="1476" height="436" alt="Image" src="https://github.com/user-attachments/assets/20aa3427-88ea-4c89-bc0b-bdce7258ce60" />
+
 ## License
 
 This project is licensed under the ISC License.
