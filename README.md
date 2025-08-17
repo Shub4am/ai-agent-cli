@@ -12,36 +12,42 @@ Chaicode AI Agent CLI is a command-line tool designed to clone websites locally 
 
 ## How It Works
 
-1. **Input:** Provide a URL or a list of URLs to clone.
-2. **Fetching:** The tool downloads the HTML and all linked resources (CSS, JS, images, etc.).
+1. **Input:** Provide a URL to clone.
+2. **Fetching:** The tool downloads the HTML and all linked resources (HTML, CSS, JS, images, etc.).
 3. **Parsing:** Uses Cheerio and DomHandler to parse and manipulate the DOM.
 4. **Rewriting:** Updates resource paths to point to local files, ensuring offline compatibility.
 5. **Saving:** Stores the cloned content in a structured directory, mirroring the original website.
+6. **Optimized:** Checks for already cloned website.
 
 ## Installation
 
 1. **Clone the repository:**
    ```sh
-   git clone <repo-url>
-   cd chaicode-ai-agent-cli
+   git clone https://github.com/Shub4am/ai-agent-cli.git
+   cd ai-agent-cli
    ```
 2. **Install dependencies:**
    ```sh
    npm install
    ```
+3. **Add Environment Variables:** 
+   Create a `.env` file in the project root to store sensitive information, such as your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
 
 ## Usage
 
-Run the CLI with Node.js:
+Run the CLI directly:
+
+```sh
+ai-agent-cli
+```
+
+Or with Node.js:
 
 ```sh
 npm run start
-```
-
-Or directly:
-
-```sh
-node src/index.js
 ```
 
 You can configure the tool or specify target URLs by editing the source files or extending the CLI interface.
@@ -55,20 +61,10 @@ You can configure the tool or specify target URLs by editing the source files or
 - `cloned-websites/` — Output directory for cloned sites, organized by domain.
 - `package.json` — Project metadata and dependencies.
 
-
-
-## Environment Variables
-
-Create a `.env` file in the project root to store sensitive information, such as your OpenAI API key:
-
-```
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
 ## License
 
 This project is licensed under the ISC License.
 
 ## Disclaimer
 
-This tool is intended for educational and research purposes. Please respect website terms of service and copyright laws when cloning web content.
+This tool is intended **strictly for educational and research purposes**. Do not use it to infringe on copyrights or violate website terms of service. Always respect intellectual property rights when cloning web content.

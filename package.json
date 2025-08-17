@@ -1,5 +1,8 @@
 {
   "name": "chaicode-ai-agent-cli",
+  "bin": {
+    "ai-agent-cli": "./src/index.js"
+  },
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {

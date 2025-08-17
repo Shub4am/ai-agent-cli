@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import "dotenv/config";
 import readline from "readline";
 import { OpenAI } from "openai";
