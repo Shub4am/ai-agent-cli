@@ -1,6 +1,6 @@
-# Chaicode AI Agent CLI
+# AI Agent CLI
 
-Chaicode AI Agent CLI is a command-line tool designed to clone websites locally and make them functional for offline use. It leverages AI and modern web scraping techniques to download, parse, and reconstruct websites, enabling developers and researchers to analyze or interact with web content without requiring an internet connection.
+AI Agent CLI is a command-line tool designed to clone websites locally and make them functional for offline use. It leverages AI and modern web scraping techniques to download, parse, and reconstruct websites, enabling developers and researchers to analyze or interact with web content without requiring an internet connection.
 
 ## Features
 
@@ -63,11 +63,7 @@ You can configure the tool or specify target URLs by editing the source files or
 
 ## CLI Screenshot
 
-<img width="1476" height="436" alt="Image" src="https://github.com/user-attachments/assets/20aa3427-88ea-4c89-bc0b-bdce7258ce60" />
-
-## Video demo:
-
-[Youtube video link ](https://www.youtube.com/watch?v=u6fwx_ledX0)
+<img width="1455" height="415" alt="screenshot" src="https://github.com/user-attachments/assets/9dcd1537-d4b1-481f-a549-ff921f1ce4ed" />
 
 
 ## Disclaimer
