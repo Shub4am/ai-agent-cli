@@ -65,6 +65,10 @@ You can configure the tool or specify target URLs by editing the source files or
 
 <img width="1476" height="436" alt="Image" src="https://github.com/user-attachments/assets/20aa3427-88ea-4c89-bc0b-bdce7258ce60" />
 
+## Video demo:
+
+[Youtube video link ](https://www.youtube.com/watch?v=u6fwx_ledX0)
+
 
 ## Disclaimer
 
